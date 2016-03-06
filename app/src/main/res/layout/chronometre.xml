@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:tools="http://schemas.android.com/tools"     android:layout_width="match_parent"     android:layout_height="match_parent"
+    android:background="#969191">       <TextView         android:id="@+id/textView1"         android:textColor="#FF0000"         android:textSize="30dp"         android:layout_width="match_parent"         android:layout_height="50dp"         android:layout_alignParentTop="true"         android:layout_centerHorizontal="true"         android:layout_marginTop="0dp"         android:text=" Chronometer"
+
+    android:background="#000000"
+    android:paddingLeft="70dp"
+    android:layout_marginBottom="10dp" />       <Button         android:id="@+id/button1"         android:layout_width="match_parent"         android:layout_height="wrap_content"         android:layout_below="@+id/textView1"         android:layout_centerHorizontal="true"         android:layout_marginTop="10dp"         android:text="Start"
+    android:background="#d5bcb9b9"
+    android:textColor="#ffffff"
+    android:textSize="25dp" />          <Button         android:id="@+id/button2"         android:layout_width="match_parent"         android:layout_height="wrap_content"         android:layout_below="@+id/button1"         android:layout_centerHorizontal="true"         android:layout_marginTop="10dp"         android:text="Stop"
+    android:background="#d5bcb9b9"
+    android:textColor="#ffffff"
+    android:textSize="25dp" />          <Button         android:id="@+id/button3"         android:layout_width="match_parent"         android:layout_height="wrap_content"         android:layout_below="@+id/button2"         android:layout_centerHorizontal="true"         android:layout_marginTop="10dp"         android:text="Restart"
+    android:background="#d5bcb9b9"
+    android:textColor="#ffffff"
+    android:textSize="25dp" /><![CDATA[
+
+          ]]>
+
+    <Chronometer         android:id="@+id/chronometer1"         android:textColor="#4169E1"         android:textSize="30dp"         android:layout_width="wrap_content"         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"         android:layout_marginTop="50dp"         android:text="Chronometer"
+        android:layout_below="@+id/button3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Retour"
+        android:id="@+id/RetourChron"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal|bold"
+        android:onClick="onClick"
+        android:enabled="true"
+        android:clickable="true"
+        android:background="#585555"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+      </RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfafa"
+    android:weightSum="1"
+    android:clickable="true"
+    android:onClick="onClick">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="Guesmi Hachem"
+        android:id="@+id/textView"
+        android:background="#070707"
+        android:foreground="#f7b00b"
+        android:textColor="#fccd3f"
+        android:textSize="20dp"
+        android:autoText="true"
+        android:layout_gravity="center_horizontal"
+        android:capitalize="words"
+        android:padding="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="Derbali Mohamed Amine"
+        android:id="@+id/textView2"
+        android:background="#070707"
+        android:foreground="#f7b00b"
+        android:textColor="#fccd3f"
+        android:textSize="20dp"
+        android:autoText="true"
+        android:layout_gravity="center_horizontal"
+        android:capitalize="words"
+        android:padding="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="Jouini Aladin"
+        android:id="@+id/textView3"
+        android:background="#070707"
+        android:foreground="#f7b00b"
+        android:textColor="#fccd3f"
+        android:textSize="20dp"
+        android:autoText="true"
+        android:layout_gravity="center_horizontal"
+        android:capitalize="words"
+        android:padding="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="Elyes Naiimi"
+        android:id="@+id/textView4"
+        android:background="#070707"
+        android:foreground="#f7b00b"
+        android:textColor="#fccd3f"
+        android:textSize="20dp"
+        android:autoText="true"
+        android:layout_gravity="center_horizontal"
+        android:capitalize="words"
+        android:padding="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Retour"
+        android:id="@+id/RetourPropos"
+        android:textSize="25dp"
+        android:textColor="#fefdfd"
+        android:background="#5a5653"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:enabled="true"
+        android:clickable="true"
+        android:onClick="onClick" />
+</LinearLayout>
